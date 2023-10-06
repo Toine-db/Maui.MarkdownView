@@ -396,3 +396,39 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# =========================
+# Windows detritus
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac desktop service store files
+.DS_Store
+Package/Lib
+*.nupkg
+
+# Temporary files created when merging
+*.orig
+*.LOCAL.*.xml
+*.REMOTE.*.xml
+*.BASE.*.xml
+*.BACKUP.*.xml
+
+# Android packages
+*.apk
+
+# Visual Studio 2015 files
+**/*.sln.ide/**
+.vs/
+
+# ExperiTest files
+**/ExperiTest/**
